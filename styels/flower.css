@@ -1,0 +1,9 @@
+/* common shard styles */
+body {
+  font-family: "Lato", sans-serif;
+}
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
