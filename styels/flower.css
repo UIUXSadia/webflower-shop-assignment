@@ -8,20 +8,53 @@ body {
   font-weight: 700;
   border-radius: 8px;
   background: #e55473;
+  padding: 20px 40px;
+  border: 0px;
+}
+
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.section-description {
+  color: #272727;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /* header related styles */
 header {
-  background-color: #e55473;
+  background-color: #fff0f4;
+}
+.banner {
+  padding: 140px 100px 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 90px;
 }
 .banner-content {
+}
+.banner-pic {
+  width: 800px;
+}
+
+.banner-title {
   color: #272727;
   font-size: 80px;
   font-weight: 800;
+  text-align: left;
+  margin-bottom: 32px;
 }
 .banner-description {
   color: #272727;
   font-size: 18px;
   font-weight: 400;
+  text-align: left;
+  margin-bottom: 32px;
   line-height: 30px;
 }
