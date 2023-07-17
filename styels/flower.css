@@ -25,7 +25,10 @@ body {
   font-size: 18px;
   font-weight: 400;
 }
-
+.flower-pic-1 {
+  width: 310;
+  text-align: center;
+}
 /* header related styles */
 header {
   background-color: #fff0f4;
@@ -37,8 +40,7 @@ header {
   justify-content: space-between;
   gap: 90px;
 }
-.banner-content {
-}
+
 .banner-pic {
   width: 800px;
 }
@@ -57,4 +59,36 @@ header {
   text-align: left;
   margin-bottom: 32px;
   line-height: 30px;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+main-section {
+  margin-top: 170px;
+}
+/* Featured related style */
+.featured-container {
+  display: flex;
+}
+.featured-item-1 {
+  background-color: #f2dee7;
+  border-radius: 300px 300px 0px 0px;
+  width: 464px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #f2dee7;
+  border-radius: 300px 300px 0px 0px;
+  width: 464px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: flex;
 }
