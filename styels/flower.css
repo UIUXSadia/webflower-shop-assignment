@@ -112,11 +112,15 @@ main section {
 /* shop info related style */
 .shop-info-container {
   display: flex;
-  gap: 100px;
+  /* gap: 100px; */
   background-color: #f4f4f4;
-  padding: 80px 140px;
+  /* padding: 80px 140px; */
   border-radius: 8px;
-  max-width: 1140px;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-around;
+  height: 300px;
+  align-items: center;
 }
 .info-description {
   color: rgba(39, 39, 39, 0.8);
@@ -138,6 +142,7 @@ main section {
   font-weight: 800;
   margin-top: 130px;
   margin-bottom: 24px;
+  text-align: center;
 }
 .sale-description {
   color: rgba(39, 39, 39, 0.6);
@@ -150,8 +155,31 @@ main section {
 /* instagram start */
 .Instagram-container {
   padding: 48px 240px 0 240px;
+  gap: 24px;
 }
 
 .instagram-pic {
-  gap: 24px;
+}
+
+/* Get The Latest Deals start */
+.latest-deals-container {
+  background-color: red;
+  background-image: url("../images/Rectangle 9.png"); */
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-around;
+  height: 350px;
+
+
+}
+
+.btn-email {
+  border-radius: 8px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 22px 500px 24px 24px;
+
+  border: 0;
 }
