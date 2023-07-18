@@ -32,6 +32,7 @@ body {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+  margin: 10px 0;
 }
 .flower-pic-1 {
   width: 310;
@@ -133,22 +134,26 @@ main section {
 .sale-container {
   display: flex;
   background-color: #f2dee7;
-  width: 100%;
-  padding: 140px 400px 140px 400px;
+}
+.sale-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 60px;
+  width: 50%;
 }
 .sale-title {
   color: #272727;
   font-size: 40px;
   font-weight: 800;
-  margin-top: 130px;
-  margin-bottom: 24px;
   text-align: center;
 }
 .sale-description {
   color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 400;
-  margin-bottom: 32px;
+  margin: 24px 0;
   text-align: center;
 }
 
@@ -163,14 +168,8 @@ main section {
 
 /* Get The Latest Deals start */
 .latest-deals-container {
-  background-color: red;
-  background-image: url("../images/Rectangle 9.png"); */
-  width: 60%;
-  margin: 0 auto;
-  justify-content: space-around;
-  height: 350px;
-
-
+  background-image: url("../images/Rectangle 9.png");
+  padding: 100px 0;
 }
 
 .btn-email {
@@ -180,6 +179,32 @@ main section {
   font-size: 16px;
   font-weight: 400;
   padding: 22px 500px 24px 24px;
-
   border: 0;
+}
+
+/* footer related styles */
+.footer-container {
+  background-color: #333333;
+  padding: 120px 640px 120px 620px;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.footer-info {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
